@@ -4,10 +4,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Dashboard from "./pages/Dashboard";
 import Expenses from "./pages/Expenses";
-import Product from "./Pages/Product";
+import Product from "./pages/Product";
 
-import Signup from "./Pages/Signup";
-import Signin from "./Pages/Signin";
+import Signup from "./pages/Signup";
+import Signin from "./pages/Signin";
 
 import ProductList from "./components/ProductList";
 import AddProduct from "./components/AddProduct";
@@ -15,7 +15,6 @@ import EditProduct from "./components/EditProduct";
 import ProductView from "./components/ProductView";
 import Cart from "./components/Cart";
 import ProtectedRoute from "./components/ProtectedRoute";
-
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -41,7 +40,6 @@ function App() {
     toast.success("Product Added Successfully");
   };
 
-  
   const removeProduct = (id) => {
     const updatedCart = cart.filter((item) => item._id !== id);
     setCart(updatedCart);
