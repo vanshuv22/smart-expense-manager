@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { addExpense } from "../services/api";
+import { addExpense } from "../services/Api";
 import axios from "axios";
 
 function ExpenseForm({ data }) {
