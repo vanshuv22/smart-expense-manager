@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
-import Dashboard from "./pages/Dashboard.jsx";
+import Dashboard from "../src/pages/Dashboard";
 import Expenses from "./pages/Expenses";
 import Product from "./pages/Product";
 
