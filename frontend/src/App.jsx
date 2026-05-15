@@ -3,11 +3,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Dashboard from "src/pages/Dashboard";
-import Expenses from "./pages/Expenses";
-import Product from "./pages/Product";
+import Expenses from "src/pages/Expenses";
+import Product from "src/pages/Product";
 
-import Signup from "./pages/Signup";
-import Signin from "./pages/Signin";
+import Signup from "src/pages/Signup";
+import Signin from "src/pages/Signin";
 
 import ProductList from "./components/ProductList";
 import AddProduct from "./components/AddProduct";
